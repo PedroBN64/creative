@@ -51,11 +51,15 @@ body {
    padding: 50px 20px 120px 20px;
 }
 
-.gradient__text{
-   background-color: linear-gradient(to right, var(--color-primary) 0%, var(--color-white) 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   background-clip: text;
+.gradient__text {
+    background: linear-gradient(to right, var(--color-primary) 0%,  var(--color-white) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gradient__text-visible {
+    color: white; /* Ou outra cor que contraste com o gradiente de fundo */
 }
 
 img{
